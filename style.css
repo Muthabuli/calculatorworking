@@ -1,0 +1,80 @@
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+.container{
+        margin: 0 auto;
+        padding-top: 100px;
+        }
+.calc-container {
+		padding: 20px;
+		background: black;
+		width: 250px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 2px blue;
+		margin: 10px auto;
+        }
+#box,#box1 {
+    width:100%;
+    height: 40px;
+    border:1px solid white;
+    border-radius: 1px;
+    background: white;
+    font-size: 30px;
+    text-align: right;
+    color: black;
+		margin: 0 auto;
+}
+.btn-container {
+		margin: 10px 5px;
+		background: blue;
+}
+
+.btn {
+		height: 40px;
+		width: 40px;
+    padding: 10px;
+    background: grey;
+    color: white;
+		border: none;
+    margin: 8px;
+    font-size: 15px;
+		box-shadow: 1px 1px 1px black;
+
+        }
+
+.btn:hover {
+  background-color: black
+}
+
+.btn:active {
+  background-color: grey;
+  box-shadow: 0 5px black;
+
+}
+.solvebtn {
+		width:160px;
+		background: green;
+}
+.solvebtn:hover {
+  background-color: darkgreen;
+}
+
+.solvebtn:active {
+  background-color: green;
+  box-shadow: 0 5px black;
+
+}
+.cbtn {
+		background: red;
+}
+.cbtn:hover {
+  background-color: maroon;
+}
+
+.cbtn:active {
+  background-color: maroon;
+  box-shadow: 0 5px black;
+
+}
